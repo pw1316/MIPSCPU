@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/CPULAB3/cputest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cputest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/cputest/debug_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/debug_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_en</obj_property>
+      <obj_property name="ObjectShortName">debug_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/debug_step" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_step</obj_property>
+      <obj_property name="ObjectShortName">debug_step</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/debug_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_addr[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/INT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">INT</obj_property>
+      <obj_property name="ObjectShortName">INT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/PCp4_if" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCp4_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCp4_if[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/inst_if" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_if[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/PCp4_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCp4_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCp4_id[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/inst_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_id[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/alu_a_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_a_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_a_id[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/alu_b_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_b_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_b_id[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/reg_dst_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_dst_id[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_dst_id[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/mem_data_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_data_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_id[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/imme_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imme_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imme_id[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/func_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">func_id[5:0]</obj_property>
+      <obj_property name="ObjectShortName">func_id[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/PCp4_exe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCp4_exe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCp4_exe[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/inst_exe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_exe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_exe[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/alu_res_exe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_res_exe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_res_exe[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/reg_dst_exe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_dst_exe[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_dst_exe[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/mem_data_for" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_data_for[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_for[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/PCp4_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCp4_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCp4_mem[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/inst_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_mem[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/mem_addr_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_addr_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_mem[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/reg_dst_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_dst_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_dst_mem[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/mem_out_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out_mem[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/PCp4_wb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCp4_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCp4_wb[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/reg_addr_wb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_addr_wb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr_wb[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/reg_data_wb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_data_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_wb[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/rs_forwarding" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_forwarding[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_forwarding[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/rt_forwarding" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rt_forwarding[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rt_forwarding[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/mem_forwarding_exe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_forwarding_exe</obj_property>
+      <obj_property name="ObjectShortName">mem_forwarding_exe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/mem_forwarding_mem" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_forwarding_mem</obj_property>
+      <obj_property name="ObjectShortName">mem_forwarding_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/cond_hazard" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cond_hazard</obj_property>
+      <obj_property name="ObjectShortName">cond_hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/rw_hazard" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw_hazard</obj_property>
+      <obj_property name="ObjectShortName">rw_hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/jump_hazard" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jump_hazard</obj_property>
+      <obj_property name="ObjectShortName">jump_hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/rs_rw_hazard" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_rw_hazard</obj_property>
+      <obj_property name="ObjectShortName">rs_rw_hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/rt_rw_hazard" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rt_rw_hazard</obj_property>
+      <obj_property name="ObjectShortName">rt_rw_hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cputest/uut/m2/regfile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regfile[31:1,31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:1,31:0]</obj_property>
+   </wvobject>
+</wave_config>
